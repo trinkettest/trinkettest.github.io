@@ -92,7 +92,9 @@ body {
     font-weight: 700;
 }
 .logo {
+    font-weight: 900;
     padding: 0px;
+    color: #fff;
 }
 
 h2 {
@@ -265,6 +267,8 @@ a.image-link {
     color: #fff;
 }
 
+
+
 input[type="email"] {
     margin: 0;
     padding: 0;
@@ -298,51 +302,123 @@ input[type="submit"] {
 
 @media (max-width:991px) { 
 
-#mainContainer {
-    display: block;
-    width: 80%;
-    margin: auto;
-    margin-top: 110px !important;
-}
+            body p {
 
-.article-image {
-    width: 60%;
-}
+                font-size: 12px;
 
-.navbar-bottom {
-}
-    
+            }
 
-    
 
+            #mainContainer, #footerContainer {
+                display: block;
+                width: 80%;
+                margin: auto;
+                margin-top: 110px !important;
+            }
+
+            .logo {
+                font-size: 200%;
+            }
+
+            .article-image {
+                width: 60%;
+            }
+
+            .navbar-bottom {
+            }
+                
+            input[type="submit"] {
+                font-size: 10px;
+            }
+                
+            .footer {
+                display: block;
+                overflow: hidden;
+                margin-top: 50px;
+                padding: 30px;
+                background: #101010;
+            }
+
+            .footer-inner {
+                width: auto;
+                margin: auto;
+            }
 
 }   
 @media (max-width:767px) { 
 
-    #mainContainer {
-        display: block;
-        width: 50%;
-        margin: auto;
-        margin-top: 110px !important;
-    }
+            body p {
 
-    .Slide_Info h4 {
-        font-size: 15px;
-        margin: 0;
-        color: white;
-    }
+                font-size: 10px;
 
-    .Slide_Info h4 {
-        font-size: 12px;
-        margin: 0;
-        color: white;
-    }
+            }
 
-    .slider img {
-    
-    margin-left: -646px;
-    
-}
+            #mainContainer, #footerContainer {
+                display: block;
+                width: 50%;
+                margin: auto;
+                margin-top: 110px !important;
+            }
+
+            .logo {
+                font-size: 200%;
+                text-align: center;
+                margin-bottom: -11px;
+            }
+
+             input[type="submit"] {
+                        font-size: 10px;
+                    }
+
+            .Slide_Info h4 {
+                font-size: 15px;
+                margin: 0;
+                color: white;
+            }
+
+            .Slide_Info h4 {
+                font-size: 12px;
+                margin: 0;
+                color: white;
+            }
+
+            .slider img {
+            
+            margin-left: -646px;
+            
+            }
+
+            input .left {
+                        font-size: 10px;
+                    }
+                        
+            .footer {
+                        display: block;
+                        overflow: hidden;
+                        margin-top: 50px;
+                        padding: 30px;
+                        background: #101010;
+                    }
+
+            .footer-inner {
+                        width: auto;
+                        margin: auto;
+                    }
+
+            .footer h5 {
+                        font-size: 10px;
+            
+                    }
+            .footer a, .footer p, .footer span {
+                        font-size: 8px;
+            
+                    }
+
+
+            ul.left-1 {
+                        margin-left: -48%;
+                    }
+
 
 }
 
