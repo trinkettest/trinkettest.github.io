@@ -1,22 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,700);
 
 
-body {
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-    color: #4c4c4c;
-    background: url("g") no-repeat fixed center;
-    background: url("../images/ignition-bg.jpg") no-repeat;
-    background-size: cover;
 
-
-}
 
 
 
 
 /* ---------------------------
-    Navigation
+    Header/Navigation 
    --------------------------- */
 
 .header_Nav ul {
@@ -97,6 +88,23 @@ body {
     color: #fff;
 }
 
+
+
+/* ---------------------------
+    Body/Article section
+   --------------------------- */
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #4c4c4c;
+    background: url("g") no-repeat fixed center;
+    background: url("../images/ignition-bg.jpg") no-repeat;
+    background-size: cover;
+
+
+}
+
 h2 {
 
     text-transform: uppercase;
@@ -104,7 +112,6 @@ h2 {
     font-size: 15px !important;
     text-align: center;
 }
-
 #mainContainer {
     display: block;
     width: 1000px;
@@ -165,6 +172,10 @@ a.image-link {
     height: auto;
 }
 
+/* ---------------------------
+    Flexslider 
+   --------------------------- */
+
 .slider {
     position: relative;
     margin-bottom: 20px;
@@ -207,6 +218,10 @@ a.image-link {
     color: white;
 }
 
+/* ---------------------------
+    Image Gallery Section
+   --------------------------- */
+
 .articleGallery {
     display: block;
     overflow: hidden;
@@ -219,7 +234,9 @@ a.image-link {
     background: #333;
 }
 
-
+/* ---------------------------
+    Footer
+   --------------------------- */
 
 .footer {
     display: block;
@@ -287,6 +304,11 @@ input[type="submit"] {
     font-weight: 700;
 }
 
+/* ---------------------------
+    Clearfix used for any 
+    containers issues
+   --------------------------- */
+
 .clearfix:before,
 .clearfix:after {
     content: "";
@@ -300,68 +322,72 @@ input[type="submit"] {
 }
 
 
+
+
+/* ---------------------------
+    Responsive (991px and 767px)
+   --------------------------- */
+
 @media (max-width:991px) { 
 
             body p {
-
-                font-size: 12px;
-
+                         font-size: 12px;
             }
 
 
             #mainContainer {
-                display: block;
-                width: 80%;
-                margin: auto;
-                margin-top: 110px !important;
+                        display: block;
+                        width: 80%;
+                        margin: auto;
+                        margin-top: 110px !important;
             }
 
             .logo {
-                font-size: 200%;
+                        font-size: 200%;
             }
 
             .article-image {
-                width: 60%;
+                        width: 60%;
             }
 
             .navbar-bottom {
             }
                 
             input[type="submit"] {
-                font-size: 10px;
+                        font-size: 10px;
             }
                 
             .footer {
-                display: block;
-                overflow: hidden;
-                margin-top: 50px;
-                padding: 30px;
-                background: #101010;
+                        display: block;
+                        overflow: hidden;
+                        margin-top: 50px;
+                        padding: 30px;
+                        background: #101010;
             }
 
             .footer-inner {
-                width: auto;
-                margin: auto;
+                        width: auto;
+                        margin: auto;
             }
 
 }   
 @media (max-width:767px) { 
 
             body p {
-                font-size: 10px;
+                        font-size: 10px;
             }
 
             #mainContainer {
-                display: block;
-                width: 50%;
-                margin: auto;
-                margin-top: 110px !important;
+                        display: block;
+                        width: 50%;
+                        margin: auto;
+                        margin-top: 110px !important;
             }
 
             .logo {
-                font-size: 200%;
-                text-align: center;
-                margin-bottom: -11px;
+                        font-size: 200%;
+                        text-align: center;
+                        margin-bottom: -11px;
             }
 
              input[type="submit"] {
@@ -369,20 +395,20 @@ input[type="submit"] {
                     }
 
             .Slide_Info h4 {
-                font-size: 15px;
-                margin: 0;
-                color: white;
+                        font-size: 15px;
+                        margin: 0;
+                        color: white;
             }
 
             .Slide_Info h4 {
-                font-size: 12px;
-                margin: 0;
-                color: white;
+                        font-size: 12px;
+                        margin: 0;
+                        color: white;
             }
 
             .slider img {
             
-            margin-left: -646px;
+                        margin-left: -646px;
             
             }
 
@@ -420,6 +446,3 @@ input[type="submit"] {
 
 }
 
-@media (max-width:500px) { 
-    
-}
